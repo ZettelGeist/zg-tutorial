@@ -3,7 +3,6 @@ title: User Manual
 tags:
 - zettel
 - user manual
-- JSON
 ---
 One thing that has changed (for the better) is that the counters are now stored in JSON format.
 
