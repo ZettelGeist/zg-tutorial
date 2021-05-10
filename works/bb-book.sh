@@ -88,3 +88,16 @@ heading "zfind count in the output"
 MLB_TEAMS=$(zfind $COMMON --query-string 'tags:MLB' --count)
 echo "There are ${MLB_TEAMS} MLB Teams"
 echo
+
+### Listing of MLB Teams
+ATX=$(get_level $SCRIPT $LINENO)
+
+echo "This is an example of how to process the results of a zfind to generate a list..."
+echo
+
+rm -f al-by-title.dat
+zfind $COMMON --query-string 'tags:MLB & tags:AL' --fileset al-by-title.dat
+for file in $(cat al-by-title.dat); do
+  echo -n "- "
+  cat $file | ./extract-yaml.py | yq eval .summary -
+done
