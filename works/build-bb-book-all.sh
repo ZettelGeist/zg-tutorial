@@ -11,4 +11,5 @@ zimport --create --database ${DB_PATH} --dir ../zettels/baseball-md --fullpath
 
 pushd ${BUILD}
 pandoc -V geometry:margin=1in  bb-book-preview.md -o bb-book-preview.pdf
+pandoc bb-book-preview.md -o bb-book-preview.docx
 popd
