@@ -1,7 +1,7 @@
 export DB=mlb.db
 export BUILD=$(pwd)/build
 export DB_PATH=$BUILD/$DB
-export COMMON="--database ${DB_PATH} --show-document"
+export COMMON="--database ${DB_PATH}"
 export SCRIPT=$0
 
 function heading () {
