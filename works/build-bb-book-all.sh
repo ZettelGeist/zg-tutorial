@@ -1,11 +1,14 @@
 #!/bin/bash
 
-if [ -f ~/zenv/bin/activate ]; then
-  source ~/zenv/bin/activate
-fi
+[ -f ~/zenv/bin/activate ] && source ~/zenv/bin/activate
+[ -f book-functions.sh ] && source book-functions.sh
 
-zimport --create --database mlb.db --dir ../zettels/baseball-md --fullpath
+mkdir -p ${BUILD}
 
-export COMMON="--database mlb.db --show-document"
+zimport --create --database ${DB_PATH} --dir ../zettels/baseball-md --fullpath
 
-./bb-book.sh | tee bb-book-preview.md
+./bb-book.sh | tee ${BUILD}/bb-book-preview.md
+
+pushd ${BUILD}
+pandoc -V geometry:margin=1in  bb-book-preview.md -o bb-book-preview.pdf
+popd

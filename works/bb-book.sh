@@ -1,10 +1,6 @@
 #!/bin/bash
 
-function emit_atx () {
-  echo
-  echo "${ATX} $1"
-  echo
-}
+[ -f book-functions.sh ] && source book-functions.sh
 
 # MLB Encyclopedia
 
