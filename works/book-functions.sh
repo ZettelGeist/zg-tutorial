@@ -21,4 +21,5 @@ function get_level() {
 shopt -s expand_aliases
 
 alias atx='ATX=$(get_level $SCRIPT $LINENO)'
+alias pandoc_shift_headings='pandoc --wrap=none -f markdown -t markdown --shift-heading-level-by=${#ATX}'
 

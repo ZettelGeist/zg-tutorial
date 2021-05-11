@@ -15,28 +15,28 @@ atx
 heading "Opening"
 
 zfind $COMMON --query-string 'tags:MLB & tags:NL & tags:Opening' --show-document \
- | pandoc --wrap=none -f markdown -t markdown --shift-heading-level-by=${#ATX}
+ | pandoc_shift_headings
 
 ### Central
 atx
 heading "Central"
 
 zfind $COMMON --query-string 'tags:MLB & tags:"NL Central"' --show-document \
- | pandoc --wrap=none -f markdown -t markdown --shift-heading-level-by=${#ATX}
+ | pandoc_shift_headings
 
 ### West
 atx
 heading "West"
 
 zfind $COMMON --query-string 'tags:MLB & tags:"NL West"' --show-document \
- | pandoc --wrap=none -f markdown -t markdown --shift-heading-level-by=${#ATX}
+ | pandoc_shift_headings
 
 ### East
 atx
 heading "East"
 
 zfind $COMMON --query-string 'tags:MLB & tags:"NL East"' --show-document \
- | pandoc --wrap=none -f markdown -t markdown --shift-heading-level-by=${#ATX}
+ | pandoc_shift_headings
 
 ## The American League
 atx
@@ -47,35 +47,35 @@ atx
 heading "Opening"
 
 zfind $COMMON --query-string 'tags:MLB & tags:AL & tags:Opening' --show-document \
- | pandoc --wrap=none -f markdown -t markdown --shift-heading-level-by=${#ATX}
+ | pandoc_shift_headings
 
 ### Central
 atx
 heading "Central"
 
 zfind $COMMON --query-string 'tags:MLB & tags:"AL Central"' --show-document \
- | pandoc --wrap=none -f markdown -t markdown --shift-heading-level-by=${#ATX}
+ | pandoc_shift_headings
 
 ### West
 atx
 heading "West"
 
 zfind $COMMON --query-string 'tags:MLB & tags:"AL West"' --show-document \
- | pandoc --wrap=none -f markdown -t markdown --shift-heading-level-by=${#ATX}
+ | pandoc_shift_headings
 
 ### East
 atx
 heading "East"
 
 zfind $COMMON --query-string 'tags:MLB & tags:"AL East"' --show-document \
- | pandoc --wrap=none -f markdown -t markdown --shift-heading-level-by=${#ATX}
+ | pandoc_shift_headings
 
 ## World Series Winners
 atx
 heading "World Series Winners"
 
 zfind $COMMON --query-string 'tags:MLB & document:"World Series"' --show-document \
- | pandoc --wrap=none -f markdown -t markdown --shift-heading-level-by=${#ATX}
+ | pandoc_shift_headings
 
 ## Database examples
 atx
