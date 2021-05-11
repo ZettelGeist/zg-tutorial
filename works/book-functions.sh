@@ -18,3 +18,7 @@ function get_level() {
   echo ${INFO[0]}
 }
 
+shopt -s expand_aliases
+
+alias atx='ATX=$(get_level $SCRIPT $LINENO)'
+
