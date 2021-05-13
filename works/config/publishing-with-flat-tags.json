@@ -1,8 +1,8 @@
 {
   "tags": {
-    "before": "\n",
-    "tag": "- %(tag)s\n\n",
-    "after": ""
+    "before": "[ ",
+    "tag": "\"%(tag)s\" ",
+    "after": " ]"
   },
   "mentions": {
     "before": "\n",
