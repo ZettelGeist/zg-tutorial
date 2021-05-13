@@ -1,4 +1,4 @@
-export DB=mlb.db
+export DB=database.db
 export BUILD=$(pwd)/build
 export DB_PATH=$BUILD/$DB
 export COMMON="--database ${DB_PATH}"
