@@ -1,20 +1,8 @@
 # %(summary)s
 
-This Zettel is located locally at [%(summary)s](%(filename)s).
-
-## Tags
+File [%(summary)s](%(filename)s).
 
 %(tags)s
 
-## Note
-
-%(note)s
-
-## The Document Body
-
-%(document)s
-
-## Citation
-
-%(cite)s
+%(document)s %(cite)s
 

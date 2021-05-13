@@ -1,12 +1,17 @@
 {
+  "tags-flat": {
+    "before": "[ ",
+    "tag": "%(tag)s ",
+    "after": " ]"
+  },
   "tags": {
-    "before": "Tags\n",
-    "tag": "- %(tag)s\n",
+    "before": "\n",
+    "tag": "- %(tag)s\n\n",
     "after": ""
   },
   "mentions": {
-    "before": "Mentions",
-    "tag": "@ %(mention)s\n",
+    "before": "\n",
+    "tag": "- %(mention)s\n",
     "after": ""
   },
   "cite": {
