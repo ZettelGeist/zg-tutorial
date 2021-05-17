@@ -5,6 +5,22 @@
 PUBLISH="--publish config/publishing-template.md --publish-conf config/publishing-options.json"  
 PUBLISH_SUMMARY_ONLY="--publish config/summary-only.md --publish-conf config/publishing-options.json"  
 
+cat << PANDOC_FRONTMATTER
+---
+title:  'Baseball Encyclopedia'
+subtitle: "Thank you, Steven Hawking"
+author:
+- George K. Thiruvathukal
+- David B. Dennis
+- Ian Cornelius
+- Wikipedia
+geometry: margin=1in
+fontfamily: bookman
+header-includes:
+- \usepackage[document]{ragged2e}
+---
+PANDOC_FRONTMATTER
+
 # MLB Encyclopedia
 atx
 heading "MLB Encyclopedia"
