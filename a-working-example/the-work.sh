@@ -22,85 +22,70 @@ header-includes:
 PANDOC_FRONTMATTER
 
 # MLB Encyclopedia
-atx
-heading "MLB Encyclopedia"
+heading
 
 ## The National League
-atx
-heading "The National League"
+heading
 
 ### Opening
-atx
-heading "Opening"
+heading
 
 zfind $COMMON --query-string 'tags:MLB & tags:NL & tags:Opening' $PUBLISH  | pandoc_shift_headings
 
 ### Central
-atx
-heading "Central"
+heading
 
 zfind $COMMON --query-string 'tags:MLB & tags:"NL Central"' $PUBLISH  | pandoc_shift_headings
 
 ### West
-atx
-heading "West"
+heading
 
 zfind $COMMON --query-string 'tags:MLB & tags:"NL West"' $PUBLISH  | pandoc_shift_headings
 
 ### East
-atx
-heading "East"
+heading
 
 zfind $COMMON --query-string 'tags:MLB & tags:"NL East"' $PUBLISH  | pandoc_shift_headings
 
 ## The American League
-atx
-heading "The American League"
+heading
 
 ### Opening
-atx
-heading "Opening"
+heading
 
 zfind $COMMON --query-string 'tags:MLB & tags:AL & tags:Opening' $PUBLISH  | pandoc_shift_headings
 
 ### Central
-atx
-heading "Central"
+heading
 
 zfind $COMMON --query-string 'tags:MLB & tags:"AL Central"' $PUBLISH  | pandoc_shift_headings
 
 ### West
-atx
-heading "West"
+heading
 
 zfind $COMMON --query-string 'tags:MLB & tags:"AL West"' $PUBLISH  | pandoc_shift_headings
 
 ### East
-atx
-heading "East"
+heading
 
 zfind $COMMON --query-string 'tags:MLB & tags:"AL East"' $PUBLISH  | pandoc_shift_headings
 
 ## World Series Winners
-atx
-heading "World Series Winners"
+heading
 
 zfind $COMMON --query-string 'tags:MLB & document:"World Series"' $PUBLISH  | pandoc_shift_headings
 
 ## Database examples
-atx
-heading "Database Examples"
+heading
 
 ### zfind count in the output
-atx
-heading "zfind count in the output"
+heading
 
 MLB_TEAMS=$(zfind $COMMON --query-string 'tags:MLB' --count)
 echo "There are ${MLB_TEAMS} MLB Teams"
 echo
 
 ### Listing of MLB Teams
-atx
 
 echo "This is an example of how to process the results of a zfind to generate a list..."
 echo
