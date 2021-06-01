@@ -12,7 +12,9 @@
   "cite": {
     "before": "(",
     "bibkey": "%(bibkey)s",
+    "pp" : ["p.", "pp."],
     "page": ", %(page)s",
+    "page_null" : "",
     "after": ")"
   }
 }

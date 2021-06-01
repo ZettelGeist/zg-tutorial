@@ -1,8 +1,9 @@
+
 # %(summary)s
 
-File [%(summary)s](%(filename)s).
+See [%(summary)s](%(filename)s).
 
 %(tags)s
 
-%(document)s %(cite)s
+%(document)s [^%(cite)s]
 

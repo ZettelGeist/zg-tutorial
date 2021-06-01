@@ -2,7 +2,7 @@
 
 NAME=the-work
 CONFIG=config
-ZETTELS=../zettels
+ZETTELS=../zettels/baseball-md
 
 [ -f ~/zenv/bin/activate ] && source ~/zenv/bin/activate
 

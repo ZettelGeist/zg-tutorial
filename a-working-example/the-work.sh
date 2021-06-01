@@ -86,8 +86,21 @@ echo "There are ${MLB_TEAMS} MLB Teams"
 echo
 
 ### Listing of MLB Teams
+heading
 
 echo "This is an example of how to process the results of a zfind to generate a list..."
 echo
 
 zfind $COMMON --query-string 'tags:MLB & tags:AL' $PUBLISH_SUMMARY_ONLY | pandoc_shift_headings
+echo
+
+## Conclusions
+heading
+
+cat << TEXT
+In conclusion, this encyclopedia is *the best*!
+Notice that the scripts can be used to include verbatim text in Markdown for when you don't want to drive the input by a zfind.
+
+The End!
+TEXT
+

@@ -24,11 +24,12 @@ function get_atx_prefix() {
 function show_heading() {
   local FILENAME=$1
   local LN=$(($2 - 1))
-  sed "${LN}q;d" $FILENAME
+  local RESULT=$(sed "${LN}q;d" $FILENAME)
+  echo $RESULT
 }
 
 shopt -s expand_aliases
 
-alias heading='ATX=$(get_atx_prefix $SCRIPT $LINENO) && show_heading $SCRIPT $LINENO'
+alias heading='ATX=$(get_atx_prefix $SCRIPT $LINENO) && show_heading $SCRIPT $LINENO && echo'
 alias pandoc_shift_headings='pandoc --wrap=none -f markdown -t markdown --shift-heading-level-by=${#ATX}'
 
