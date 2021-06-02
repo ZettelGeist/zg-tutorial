@@ -5,6 +5,7 @@ tags:
 - MLB
 - American League
 - AL East
+- MD
 cite:
   bibkey: new-york-yankees-wikipedia
   page: web page

@@ -5,6 +5,7 @@ tags:
 - MLB
 - National League
 - NL Central
+- MD
 cite:
   bibkey: pittsburgh-pirates-wikipedia
   page: web page

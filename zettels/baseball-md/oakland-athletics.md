@@ -5,6 +5,7 @@ tags:
 - MLB
 - American League
 - AL West
+- MD
 cite:
   bibkey: oakland-athletics-wikipedia
   page: web page

@@ -5,6 +5,7 @@ tags:
 - MLB
 - National League
 - NL Central
+- MD
 cite:
   bibkey: milwaukee-brewers-wikipedia
   page: web page

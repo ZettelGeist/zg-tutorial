@@ -5,6 +5,7 @@ tags:
 - MLB
 - National League
 - NL Central
+- MD
 cite:
   bibkey: cincinnati-reds-wikipedia
   page: web page

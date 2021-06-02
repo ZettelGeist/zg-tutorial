@@ -5,6 +5,7 @@ tags:
 - MLB
 - National League
 - NL Central
+- MD
 cite:
   bibkey: st-louis-cardinals-wikipedia
   page: web page

@@ -5,6 +5,7 @@ tags:
 - MLB
 - American League
 - AL East
+- MD
 cite:
   bibkey: tampa-bay-rays-wikipedia
   page: web page

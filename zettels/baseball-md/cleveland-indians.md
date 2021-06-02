@@ -5,6 +5,7 @@ tags:
 - MLB
 - American League
 - AL Central
+- MD
 cite:
   bibkey: cleveland-indians-wikipedia
   page: web page

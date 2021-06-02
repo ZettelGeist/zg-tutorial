@@ -5,6 +5,7 @@ tags:
 - MLB
 - National League
 - AL East
+- MD
 cite:
   bibkey: baltimore-orioles-wikipedia
   page: web page

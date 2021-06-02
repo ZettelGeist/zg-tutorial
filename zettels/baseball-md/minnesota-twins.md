@@ -5,6 +5,7 @@ tags:
 - MLB
 - American League
 - AL Central
+- MD
 cite:
   bibkey: minnesota-twins-wikipedia
   page: web page

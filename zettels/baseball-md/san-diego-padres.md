@@ -5,6 +5,7 @@ tags:
 - MLB
 - National League
 - NL West
+- MD
 cite:
   bibkey: san-diego-padres-wikipedia
   page: web page

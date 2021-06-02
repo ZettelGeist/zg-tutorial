@@ -5,6 +5,7 @@ tags:
 - MLB
 - American League
 - AL Central
+- MD
 cite:
   bibkey: chicago-grey-sox-wikipedia
   page: web page

@@ -5,6 +5,7 @@ tags:
 - MLB
 - National League
 - NL East
+- MD
 cite:
   bibkey: washington-nationals-wikipedia
   page: web page

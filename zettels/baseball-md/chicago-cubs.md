@@ -5,6 +5,7 @@ tags:
 - MLB
 - National League
 - NL East
+- MD
 cite:
   bibkey: chicago-cubs-wikipedia
   page: web page

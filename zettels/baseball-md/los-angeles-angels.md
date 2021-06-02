@@ -5,6 +5,7 @@ tags:
 - MLB
 - American League
 - AL West
+- MD
 cite:
   bibkey: los-angeles-angels-wikipedia
   page: web page

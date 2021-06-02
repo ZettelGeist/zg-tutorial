@@ -5,6 +5,7 @@ tags:
 - MLB
 - National League
 - NL West
+- MD
 cite:
   bibkey: los-angeles-dodgers-wikipedia
   page: web page

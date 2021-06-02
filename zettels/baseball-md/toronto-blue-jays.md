@@ -5,6 +5,7 @@ tags:
 - MLB
 - American League
 - AL East
+- MD
 cite:
   bibkey: toronto-blue-jays-wikipedia
   page: web page

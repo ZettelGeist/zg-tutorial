@@ -5,6 +5,7 @@ tags:
 - MLB
 - National League
 - NL West
+- MD
 cite:
   bibkey: colorado-rockies-wikipedia
   page: web page

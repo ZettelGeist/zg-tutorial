@@ -5,6 +5,7 @@ tags:
 - MLB
 - American League
 - AL Central
+- MD
 cite:
   bibkey: kansas-city-royals-wikipedia
   page: web page

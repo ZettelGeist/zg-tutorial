@@ -5,6 +5,7 @@ tags:
 - MLB
 - American League
 - AL West
+- MD
 cite:
   bibkey: texas-rangers-wikipedia
   page: web page

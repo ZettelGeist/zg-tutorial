@@ -5,6 +5,7 @@ tags:
 - MLB
 - American League
 - AL East
+- MD
 cite:
   bibkey: boston-red-sox-wikipedia
   page: web page
